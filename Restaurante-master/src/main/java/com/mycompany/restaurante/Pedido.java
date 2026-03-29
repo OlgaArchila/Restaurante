@@ -1,14 +1,9 @@
 package com.mycompany.restaurante;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author anair
- */
 public class Pedido {
+    String cliente; //guarda el nombre del cliente
+    String plato; //guarda el nombre del plato
     
+    public Pedido(){ //constructor vacio
+    }
 }
