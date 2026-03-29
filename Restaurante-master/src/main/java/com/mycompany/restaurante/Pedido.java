@@ -10,4 +10,7 @@ public class Pedido {
         this.cliente= cliente; //asignar nombre del cliente
         this.plato=plato; //asignar el nombre del plato
     }
+    public String mostrar(){
+        return cliente + "El cliente pidió:" +plato; //mensaje para mostar el pedido
+    }
 }
