@@ -6,4 +6,8 @@ public class Pedido {
     
     public Pedido(){ //constructor vacio
     }
+    public Pedido(String cliente, String plato){ //constructor con parametros
+        this.cliente= cliente; //asignar nombre del cliente
+        this.plato=plato; //asignar el nombre del plato
+    }
 }
